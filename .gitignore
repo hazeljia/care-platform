@@ -1,0 +1,49 @@
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+.npmrc
+.pypirc
+credentials.json
+credentials.*.json
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# Editor and agent caches
+.vscode/
+.idea/
+.codex/
+.agents/
+.cache/
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# Temporary files, logs and local databases
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated sharing archives and preview screenshots
+*.zip
+preview-*.png
+preview-*.jpg
+
+# Windows and macOS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
